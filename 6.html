@@ -1,23 +1,29 @@
 <!DOCTYPE HTML>
 <html>
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black">
 </head>
-<body style="margin:0;background:black;position:relative;">
+<body style="margin:0;background:black;">
 
-<a href="index.html"
-style="
-position:absolute;
-top:40px;
-left:30px;
-width:80px;
-height:80px;
-z-index:1000;
-">
-</a>
+<div style="position:relative; width:100%; max-width:500px; margin:0 auto;">
 
-<img src="6.jpg" style="width:100%;display:block;">
+  <!-- BACK BUTTON: Over the X Image -->
+  <a href="index.html" style="
+    position: absolute;
+    top: 4%;
+    left: 7%;
+    width: 15%;
+    height: 8%;
+    z-index: 1000;
+    background: rgba(255, 0, 0, 0.4); /* REMOVE THIS LINE AFTER TESTING */
+  "></a>
+
+  <!-- The QR Image -->
+  <img src="6.jpg" style="width:100%; display:block;">
+
+</div>
 
 </body>
 </html>
